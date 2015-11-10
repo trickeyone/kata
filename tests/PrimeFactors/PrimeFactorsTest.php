@@ -5,7 +5,8 @@ class PrimeFactorsTest extends \PHPUnit_Framework_TestCase
 {
     public function testSetup()
     {
-        $bowling = new PrimeFactors;
-        $this->assertTrue($bowling instanceof PrimeFactors);
+        $primeFactors = new PrimeFactors;
+
+        $this->assertTrue($primeFactors instanceof PrimeFactors);
     }
 }

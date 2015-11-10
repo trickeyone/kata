@@ -19,6 +19,9 @@
         <testsuite name="PrimeFactors">
             <directory suffix=".php">./tests/PrimeFactors</directory>
         </testsuite>
+        <testsuite name="RomanNumerals">
+            <directory suffix=".php">./tests/RomanNumerals</directory>
+        </testsuite>
     </testsuites>
     <listeners>
         <listener class="\Mockery\Adapter\Phpunit\TestListener"
