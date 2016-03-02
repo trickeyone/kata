@@ -5,7 +5,7 @@ Kata
 
 ## Introduction
 
-Kata for PHP
+Kata for PHP.
 
 ## Installation
 
