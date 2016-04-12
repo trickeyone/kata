@@ -5,8 +5,8 @@ class CurrencyConversionTest extends \PHPUnit_Framework_TestCase
 {
     public function testSetup()
     {
-        $bowling = new CurrencyConversion;
+        $currencyConversion = new CurrencyConversion;
 
-        $this->assertTrue($bowling instanceof CurrencyConversion);
+        $this->assertTrue($currencyConversion instanceof CurrencyConversion);
     }
 }
