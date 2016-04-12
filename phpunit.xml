@@ -22,6 +22,9 @@
         <testsuite name="RomanNumerals">
             <directory suffix=".php">./tests/RomanNumerals</directory>
         </testsuite>
+        <testsuite name="CurrencyConversion">
+            <directory suffix=".php">./tests/CurrencyConversion</directory>
+        </testsuite>
     </testsuites>
     <listeners>
         <listener class="\Mockery\Adapter\Phpunit\TestListener"
