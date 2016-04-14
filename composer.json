@@ -15,7 +15,7 @@
         "squizlabs/php_codesniffer": "1.5.5"
     },
     "require": {
-        "php": ">=5.5"
+        "php": ">=7"
     },
     "autoload": {
         "psr-4": {
