@@ -18,8 +18,8 @@ Roman numerals are expressed by letters of the alphabet:
 1. A letter repeats its value that many times (XXX = 30, CC = 200, etc.). A letter can only be repeated three times.
 2. If one or more letters are placed after another letter of greater value, add that amount.
 3. If a letter is placed before another letter of greater value, subtract that amount.
-    a. Only subtract powers of ten (I, X, or C, but not V or L)
-    b. Only subtract one number from another.
-    c. Do not subtract a number from one that is more than 10 times greater (that is, you can subtract 1
+    1. Only subtract powers of ten (I, X, or C, but not V or L)
+    2. Only subtract one number from another.
+    3. Do not subtract a number from one that is more than 10 times greater (that is, you can subtract 1
        from 10 [IX] but not 1 from 20—there is no such number as IXX.)
 4. A bar placed on top of a letter or string of letters increases the numeral's value by 1,000 times.
