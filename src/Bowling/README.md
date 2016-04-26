@@ -4,10 +4,12 @@
 
 ### Example Score
 
+```
 Frame: |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |   10  |
        +-----+-----+-----+-----+-----+-----+-----+-----+-----+-------+
 Roll:  | 1 4 | 4 5 | 6 / | 5 / |   X | 0 1 | 7 / | 6 / |  X  | 2 / 6 |
 Score: |  5  |  14 |  29 |  49 |  60 |  61 |  77 |  97 | 117 |  133  |
+```
 
 The game consists of 10 frames as shown above. In each frame the player has
 two opportunities to knock down 10 pins. The score for the frame is the total
