@@ -22,4 +22,3 @@ Roman numerals are expressed by letters of the alphabet:
     2. Only subtract one number from another.
     3. Do not subtract a number from one that is more than 10 times greater (that is, you can subtract 1
        from 10 [IX] but not 1 from 20—there is no such number as IXX.)
-4. A bar placed on top of a letter or string of letters increases the numeral's value by 1,000 times.
