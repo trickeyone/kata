@@ -31,7 +31,7 @@ $ composer install
 1. Open PHPStorm
 2. Go to Preferences > Appearance & Behavior > Scopes
 3. Click the "+" icon and select "Local" to add a new Scope (Name: "Source")
-4. Locate the "kata/src" directory and click the "Include" button
+4. Locate the "kata/src" and "kata/tests" directories and click the "Include" button
 5. Click "Apply"
 
 ## Setup PHP Code Sniffer
