@@ -9,18 +9,44 @@ Kata for PHP.
 
 ## Installation
 
-Add the following lines to your ``composer.json`` file.
+*NOTE:* These instructions are written with the presumption that you are running on a Mac OS X machine.
 
-```JSON
-{
-    "require": {
-        "pdt256/kata": "dev-master"
-    }
-}
-```
+#### Pre-requisites
+
+1. Install XCode from the App Store
+  * This needs to be the entire XCode package, not just the build tools.
+  * This will take some time to install, approximately 10-15+ minutes on a good internet connection. The XCode package is roughly 3.8GB. It is recommended to be on a hardwired internet connection.
+2. [Install Homebrew](http://brew.sh/) (Follow instructions provided at this link)
+3. [Install PHP 5.6](#installPHP56)
+4. [Install Composer](#installComposer)
+5. [Install Node/NPM](#installNode)
 
 ```
    composer install
+```
+
+<a name="installPHP56"></a>
+#### Install PHP 5.6 and XDebug
+
+```
+brew install homebrew/php/php56 homebrew/php/php56-xdebug
+```
+
+<a name="installComposer"></a>
+#### Install Composer
+
+This will install composer globally for your user and for easier use.
+
+```
+curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+```
+
+<a name="installNode"></a>
+#### Install Node/NPM
+
+```
+brew install homebrew/versions/node012
+npm -g update npm
 ```
 
 ## Unit Tests:
