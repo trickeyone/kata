@@ -19,17 +19,20 @@ Kata for PHP.
 2. [Install Homebrew](http://brew.sh/) (Follow instructions provided at this link)
 3. [Install PHP 5.6](#installPHP56)
 4. [Install Composer](#installComposer)
-5. [Install Node/NPM](#installNode)
 
+#### Install Dependencies
+
+```bash
+$ composer install
 ```
-   composer install
-```
+
+## Setup 
 
 <a name="installPHP56"></a>
 #### Install PHP 5.6 and XDebug
 
-```
-brew install homebrew/php/php56 homebrew/php/php56-xdebug
+```bash
+$ brew install homebrew/php/php56 homebrew/php/php56-xdebug
 ```
 
 <a name="installComposer"></a>
@@ -37,23 +40,15 @@ brew install homebrew/php/php56 homebrew/php/php56-xdebug
 
 This will install composer globally for your user and for easier use.
 
-```
-curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-```
-
-<a name="installNode"></a>
-#### Install Node/NPM
-
-```
-brew install homebrew/versions/node012
-npm -g update npm
+```bash
+$ curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 ```
 
 ## Unit Tests:
 
-<pre>
-    vendor/bin/phpunit
-</pre>
+```bash
+$ vendor/bin/phpunit
+```
 
 
 ### License
