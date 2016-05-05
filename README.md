@@ -26,7 +26,30 @@ Kata for PHP.
 $ composer install
 ```
 
-## Setup 
+## Setup Scopes
+
+1. Open PHPStorm
+2. Go to Preferences > Appearance & Behavior > Scopes
+3. Click the "+" icon and select "Local" to add a new Scope (Name: "Source")
+4. Locate the "kata/src" directory and click the "Include" button
+5. Click "Apply"
+
+## Setup PHP Code Sniffer
+
+1. Go to Preferences > Languages & Frameworks > PHP > Code Sniffer
+2. Click the "..." button
+3. Click the "+" icon button to add a new Configuration (Name: Local)
+4. Locate the phpcs binary path
+  1. Click the "..." button to browse
+  2. Locate the binary: <project path>/vendor/bin/phpcs
+5. Click "Validate"
+6. Click "Apply" & "Ok"
+7. Go to Preferences > Editor > Inspections
+8. Search for "PHP Code Sniffer validation" and enable it by checking the checkbox
+9. In the second dropdown for "Severity", select the "Source" scope you created earlier
+  1. Un-check the "Everywhere else" option that was created
+10. Select "PSR2" from the "Coding Standard" dropdown
+11. Click "Apply" & "Ok"
 
 <a name="installPHP56"></a>
 #### Install PHP 5.6 and XDebug
